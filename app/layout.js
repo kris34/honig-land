@@ -11,8 +11,7 @@ const fredoka = Fredoka({
 });
 
 export const metadata = {
-  title: "Superblog",
-  description: "A blog app using Next.js and Prisma",
+  title: "Honing Land",
 };
 
 export default function RootLayout({ children }) {
