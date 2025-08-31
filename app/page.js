@@ -1,7 +1,5 @@
 export const dynamic = 'force-dynamic'; // This disables SSG and ISR
 
-import prisma from '@/lib/prisma';
-import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { checkPostTableExists } from '@/lib/db-utils';
 import HomepageBanner from './components/HomepageBanner'
