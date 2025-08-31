@@ -14,7 +14,7 @@ import Link from 'next/link';
 export default function HomepageBanner() {
     return (
         <div className="flex flex-col justify-center items-center text-center p-6">
-
+{/*             //commit comment */}
             <div className="bee bee-1 text-4xl"><span className="buzz">🐝</span></div>
 
             <h2 className="mb-4 font-bold text-headerFontColor text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
