@@ -53,7 +53,7 @@ export default function HomepageBanner() {
                     <div className="flex gap-4 justify-center">
                         <div className="relative md:w-64 w-full aspect-square">
                             <Image
-                                src={bild_4}
+                                src={bild_5}
                                 fill
                                 priority
                                 alt="bild 4"
@@ -62,7 +62,7 @@ export default function HomepageBanner() {
                         </div>
                         <div className="relative md:w-64 w-full aspect-square rounded-xl">
                             <Image
-                                src={bild_6}
+                                src={bild_5}
                                 fill
                                 priority
                                 alt="bild 6"
