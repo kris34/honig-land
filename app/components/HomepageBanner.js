@@ -2,9 +2,9 @@
 
 import Image from 'next/image';
 import bild_1 from '../assets/images/bild-1.png';
-import bild_4 from '../assets/images/bild-4.png';
+/* import bild_4 from '../assets/images/bild-4.png'; */
 import bild_5 from '../assets/images/bild-5.png';
-import bild_6 from '../assets/images/bild-6.png';
+/* import bild_6 from '../assets/images/bild-6.png'; */
 import Link from 'next/link';
 
 export default function HomepageBanner() {
