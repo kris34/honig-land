@@ -20,8 +20,7 @@ export default function Header() {
                             <span className="text-[18px] sm:text-[15px]">📜</span>
                         </li> */}
                         <li className="flex items-center gap-1 cursor-pointer select-none">
-                            <span className="hidden sm:inline">Shop</span>
-                            <span className="text-[18px] sm:text-[15px]">🛍️</span>
+                            <Link href="/shop">Shop 🛍️</Link>
                         </li>
                         <li className="flex items-center gap-1 cursor-pointer select-none">
                             <span className="hidden sm:inline">Contact</span>

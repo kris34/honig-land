@@ -5,12 +5,11 @@ import bild_1 from '../assets/images/bild-1.png';
 import bild_4 from '../assets/images/bild-4.png';
 import bild_5 from '../assets/images/bild-5.png';
 import bild_6 from '../assets/images/bild-6.png';
+import Link from 'next/link';
 
 export default function HomepageBanner() {
     return (
         <div className="flex flex-col justify-center items-center text-center p-6">
-            <div className="bee bee-1 text-4xl"><span className="buzz">🐝</span></div>
-
             <h2 className="mb-4 font-bold text-headerFontColor text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                 Honig & mehr, mit Liebe aus Gnandstein 🇩🇪🧡
             </h2>
@@ -21,7 +20,7 @@ export default function HomepageBanner() {
             </p>
 
             <button className="cursor-pointer mb-10 px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full shadow-lg hover:bg-yellow-500 transition">
-                Produkte entdecken 🛒
+                <Link href={'/shop'}>Produkte entdecken 🛒</Link>
             </button>
 
             <div className="w-full max-w-5xl grid grid-cols-1 gap-5 items-center justify-center md:grid-cols-2 bg-white p-10 shadow-lg rounded-xl">
@@ -52,7 +51,7 @@ export default function HomepageBanner() {
                     <p className="text-lg">Wir sind Dirk und Boryana.</p>
 
                     <div className="flex gap-4 justify-center">
-                        <div className="relative md:w-64 w-full aspect-square rounded-xl">
+                        <div className="relative md:w-64 w-full aspect-square">
                             <Image
                                 src={bild_4}
                                 fill
