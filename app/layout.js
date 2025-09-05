@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
       <body>
         <div className="min-h-screen flex flex-col">
           <Header />
-          <div className="bee bee-1 text-4xl"><span className="buzz">🐝</span></div>
           <main className="flex-1">{children}</main>
           <Footer />
         </div>

@@ -15,10 +15,6 @@ export default function Header() {
                     </h1>
 
                     <ul className="flex gap-x-4 sm:gap-x-8 items-center text-headerFontColor font-bold text-[16px] sm:text-[20px]">
-                        {/* <li className="flex items-center gap-1 cursor-pointer select-none">
-                            <span className="hidden sm:inline">Über uns</span>
-                            <span className="text-[18px] sm:text-[15px]">📜</span>
-                        </li> */}
                         <li className="flex items-center gap-1 cursor-pointer select-none">
                             <Link href="/shop">Shop 🛍️</Link>
                         </li>
