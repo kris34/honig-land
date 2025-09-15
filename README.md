@@ -1,1 +1,1 @@
-Honig-Land is an online shop for honey products. It's purpose is to serve as an info/ad page for a small business in Leipzig, Germany.
+Honig-Land is an online shop for honey products. It's purpose is to serve as an info/ad page for a small business in Leipzig, Germany. It is currently in development but it's expected to be ready by the end of September. Link to current state => https://honig-land.vercel.app/
