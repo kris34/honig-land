@@ -2,7 +2,7 @@
 
 export default function ContactPage() {
     return (
-        <div className="min-h-screen flex flex-col justify-start items-center text-center pt-20 p-6">
+        <div className="min-h-screen flex flex-col justify-start items-center text-center pt-20 p-6 mt-10">
             <h2 className="mb-4 font-bold text-headerFontColor text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                 Kontakt & Anfragen 🐝💛
             </h2>
