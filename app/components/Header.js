@@ -19,17 +19,9 @@ export default function Header() {
                             <Link href="/shop">Shop 🛍️</Link>
                         </li>
                         <li className="flex items-center gap-1 cursor-pointer select-none">
-                            <span className="hidden sm:inline">Contact</span>
-                            <span className="text-[18px] sm:text-[15px]">📞</span>
+                            <Link href="/contact">Contact 📞</Link>
                         </li>
-                        <li className="flex items-center gap-1 cursor-pointer select-none">
-                            <Image
-                                src={germanFlagImage}
-                                alt="flag icon"
-                                width={25}
-                                height={25}
-                            />
-                        </li>
+
                     </ul>
                 </div>
             </nav>
