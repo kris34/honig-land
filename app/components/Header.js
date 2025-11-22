@@ -1,8 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import germanFlagImage from '../assets/images/flag-germany.webp'
-import Image from 'next/image';
 
 export default function Header() {
     return (
