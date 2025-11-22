@@ -31,9 +31,9 @@ export default function ProductCard({ image }) {
         </p>
 
         {/* Button */}
-        <button className="mt-4 px-6 py-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-black font-semibold rounded-full shadow-md hover:from-yellow-500 hover:to-orange-500 transition">
+        {/* <button className="mt-4 px-6 py-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-black font-semibold rounded-full shadow-md hover:from-yellow-500 hover:to-orange-500 transition">
           Add to Cart 🛒
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -1,10 +1,11 @@
 'use client';
 
 import Image from 'next/image';
-import bild_1 from '../assets/images/bild-1.png';
-/* import bild_4 from '../assets/images/bild-4.png'; */
+import bild_1 from '../assets/images/bild-14.jpg';
+import bild_2 from '../assets/images/bild-2.png';
+import bild_3 from '../assets/images/bild-3.png';
 import bild_5 from '../assets/images/bild-5.png';
-/* import bild_6 from '../assets/images/bild-6.png'; */
+
 import Link from 'next/link';
 
 export default function HomepageBanner() {
@@ -53,7 +54,7 @@ export default function HomepageBanner() {
                     <div className="flex gap-4 justify-center">
                         <div className="relative md:w-64 w-full aspect-square">
                             <Image
-                                src={bild_5}
+                                src={bild_2}
                                 fill
                                 priority
                                 alt="bild 4"
@@ -62,7 +63,7 @@ export default function HomepageBanner() {
                         </div>
                         <div className="relative md:w-64 w-full aspect-square rounded-xl">
                             <Image
-                                src={bild_5}
+                                src={bild_3}
                                 fill
                                 priority
                                 alt="bild 6"
