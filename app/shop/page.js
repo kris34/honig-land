@@ -4,7 +4,6 @@ import bild_1 from '../assets/images/bild-7.jpg';
 import bild_2 from '../assets/images/bild-8.jpg';
 import bild_3 from '../assets/images/bild-9.jpg';
 import bild_4 from '../assets/images/bild-10.jpg';
-import bild_5 from '../assets/images/bild-11.jpg';
 import bild_6 from '../assets/images/bild-12.jpg';
 import bild_7 from '../assets/images/bild-13.jpg';
 import bild_19 from '../assets/images/bild_19.jpg';
