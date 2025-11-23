@@ -9,7 +9,7 @@ export default function Header() {
 
                 <div className="w-full max-w-screen-lg mx-auto flex items-center justify-between h-[80px]">
                     <h1 className="text-2xl sm:text-3xl font-bold text-headerFontColor">
-                        <Link href='/'>Honig Land 🍯</Link>
+                        <Link href='/'>Honig Land Imkerei🍯</Link>
                     </h1>
 
                     <ul className="flex gap-x-4 sm:gap-x-8 items-center text-headerFontColor font-bold text-[16px] sm:text-[20px]">
