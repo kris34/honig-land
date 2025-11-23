@@ -11,8 +11,8 @@ export default function ContactPage() {
                 <h3 className="text-2xl font-bold mb-4">📞 Kontaktinformationen</h3>
 
                 <div className="grid gap-4 text-lg">
-                    <p>📧 <span className="font-semibold">E-Mail:</span> info@gnandstein-honig.de</p>
-                    <p>📱 <span className="font-semibold">Telefon:</span> +49 123 456789</p>
+                    <p>📧 <span className="font-semibold">E-Mail:</span> freki73@gmx.de</p>
+                    <p>📱 <span className="font-semibold">Telefon:</span> +49 176 39215258</p>
                     <p>📍 <span className="font-semibold">Adresse:</span> Gnandstein, Deutschland</p>
                 </div>
             </div>
