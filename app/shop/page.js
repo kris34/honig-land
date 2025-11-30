@@ -9,6 +9,8 @@ import bild_7 from '../assets/images/bild-13.jpg';
 import bild_19 from '../assets/images/bild_19.jpg';
 import bild_18 from '../assets/images/bild_18.jpg';
 import bild_20 from '../assets/images/bild_20.jpg';
+import bild_21 from '../assets/images/bild_21.jpg';
+
 
 import ProductCard from '../components/ProductCard';
 
@@ -27,6 +29,7 @@ export default function ShopPage() {
                 <ProductCard image={bild_7} title={'Robinienhonig'} description={'Robinienhonig hat einen milden, lieblichen und blumigen Geschmack mit einer kräftigen Süße. Er bleibt dank seines hohen Fruchtzuckeranteils lange flüssig und hat eine helle, fast klare Farbe. Er eignet sich gut für Tee, Müsli und Desserts, kann aber auch zum Süßen von Salaten, Soßen und Desserts verwendet werden.'} />
                 <ProductCard image={bild_18} title={'Waldhonig'} description={'Waldhonig verfügt über würzige Aromen und schmeckt je nach Sorte leicht herb und malzig. Seine Konsistenz ist flüssig und seine Farbe reicht von Bernstein bis Schwarz. In der Regel kristallisiert er nur langsam aus.'} />
                 <ProductCard image={bild_20} title={'Waldblüte'} description={'Waldblütenhonig schmeckt komplex, vereint die blumige Süße von Blütenhonig mit den kräftigen, malzigen und harzigen Noten von Waldhonig. Er ist intensiver als reiner Blütenhonig, aber nicht so erdig wie reiner Waldhonig, und wird oft als leicht würzig mit angenehmer Süße beschrieben'} />
+                <ProductCard image={bild_21} title={'Feldblütenhonig'} description={'Feldblütenhonig wird aus dem Nektar einer Vielzahl von Blüten gewonnen und zeichnet sich durch einen charakteristischen Geschmack aus, der je nach Standort und Erntezeit variiert.'} />
                 <ProductCard image={bild_3} title={'Propolis'} description={'Propolis ist eine harzige Mischung aus Pflanzenmaterialien und Bienensekreten, die Honigbienen sammeln, um ihren Bienenstock abzudichten, zu reinigen und zu schützen. Es dient als natürliches Antibiotikum, Antimykotikum und Antivirusmittel, das Bakterien, Pilze und Viren abwehrt, und wird auch für seine entzündungshemmenden, schmerzlindernden und wundheilungsfördernden Eigenschaften beim Menschen genutzt. Propolis enthält Flavonoide, Phenole und ätherische Öle'} />
                 <ProductCard image={bild_19} title={'Bienenpollen'} description={'Bienenpollen ist eine Mischung aus Blütenpollen, Nektar, Enzymen und Wachs, die von Bienen gesammelt wird und sich durch eine hohe Nährstoffdichte auszeichnet. Er ist reich an Proteinen, Vitaminen, Mineralstoffen, Aminosäuren und Antioxidantien. Die Körner sind gelb bis bräunlich und haben einen süßen, blumigen Geschmack'} />
             </div>

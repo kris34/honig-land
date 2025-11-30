@@ -13,7 +13,7 @@ export default function Header() {
 
                     {/* LOGO */}
                     <h1 className="text-xl sm:text-3xl font-bold text-headerFontColor">
-                        <Link href="/">Honig Land Imkerei🍯</Link>
+                        <Link href="/">Honig Land Imkerei Gnandstein🍯</Link>
                     </h1>
 
                     {/* DESKTOP MENU */}

@@ -13,7 +13,7 @@ export default function ContactPage() {
                 <div className="grid gap-4 text-lg">
                     <p>📧 <span className="font-semibold">E-Mail:</span> freki73@gmx.de</p>
                     <p>📱 <span className="font-semibold">Telefon:</span> +49 176 39215258</p>
-                    <p>📍 <span className="font-semibold">Adresse:</span> Gnandstein, Deutschland</p>
+                    <p>📍 <span className="font-semibold">Adresse:</span> Bauerngasse 1, 04654 Gnandstein, Deutschland</p>
                 </div>
             </div>
         </div>
