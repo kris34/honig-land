@@ -2,11 +2,15 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from './components/Footer'
 
-import { Fredoka } from "next/font/google";
+import localFont from "next/font/local";
 
-const fredoka = Fredoka({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+// Self-hosted: next/font/google fails on Vercel because Google now returns
+// font URLs without a file extension, which Next 15.1 can't parse.
+const fredoka = localFont({
+  src: "./fonts/Fredoka-latin-variable.woff2",
+  weight: "300 700",
+  style: "normal",
+  display: "swap",
   variable: "--font-fredoka",
 });
 
