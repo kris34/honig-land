@@ -10,6 +10,7 @@ import bild_19 from '../assets/images/bild_19.jpg';
 import bild_18 from '../assets/images/bild_18.jpg';
 import bild_20 from '../assets/images/bild_20.jpg';
 import bild_21 from '../assets/images/bild_21.jpg';
+import bild_22 from '../assets/images/bild_22.jpg';
 
 
 import ProductCard from '../components/ProductCard';
@@ -32,6 +33,8 @@ export default function ShopPage() {
                 <ProductCard image={bild_21} title={'Feldblütenhonig'} description={'Feldblütenhonig wird aus dem Nektar einer Vielzahl von Blüten gewonnen und zeichnet sich durch einen charakteristischen Geschmack aus, der je nach Standort und Erntezeit variiert.'} />
                 <ProductCard image={bild_3} title={'Propolis'} description={'Propolis ist eine harzige Mischung aus Pflanzenmaterialien und Bienensekreten, die Honigbienen sammeln, um ihren Bienenstock abzudichten, zu reinigen und zu schützen. Es dient als natürliches Antibiotikum, Antimykotikum und Antivirusmittel, das Bakterien, Pilze und Viren abwehrt, und wird auch für seine entzündungshemmenden, schmerzlindernden und wundheilungsfördernden Eigenschaften beim Menschen genutzt. Propolis enthält Flavonoide, Phenole und ätherische Öle'} />
                 <ProductCard image={bild_19} title={'Bienenpollen'} description={'Bienenpollen ist eine Mischung aus Blütenpollen, Nektar, Enzymen und Wachs, die von Bienen gesammelt wird und sich durch eine hohe Nährstoffdichte auszeichnet. Er ist reich an Proteinen, Vitaminen, Mineralstoffen, Aminosäuren und Antioxidantien. Die Körner sind gelb bis bräunlich und haben einen süßen, blumigen Geschmack'} />
+                <ProductCard image={bild_22} title={'Sonnenblumenhonig'} description={'Sonnenblumenhonig ist ein kräftig gelber, aromatischer Blütenhonig mit einem leicht fruchtigen bis würzigen Geschmack. Er zeichnet sich besonders durch seine feinkristalline Konsistenz aus, da er nach der Ernte sehr schnell fest wird.'} />
+
             </div>
         </div>
     );
