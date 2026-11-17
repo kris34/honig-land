@@ -10,7 +10,7 @@ import bild_19 from '../assets/images/bild_19.jpg';
 import bild_18 from '../assets/images/bild_18.jpg';
 import bild_20 from '../assets/images/bild_20.jpg';
 import bild_21 from '../assets/images/bild_21.jpg';
-import bild_22 from '../assets/images/bild_22.jpg';
+import bild_22 from '../assets/images/bild-22.jpg';
 
 
 import ProductCard from '../components/ProductCard';
