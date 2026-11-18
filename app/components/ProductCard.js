@@ -7,8 +7,8 @@ export default function ProductCard({ image, title, description }) {
     <div className="flex flex-col items-center justify-between p-6 sm:p-8 rounded-2xl shadow-xl bg-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-yellow-400 via-orange-400 to-amber-500 rounded-t-2xl"></div>
 
-      <div className="flex flex-col items-center text-center space-y-4 mt-2">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+      <div className="flex flex-col items-center text-center space-y-4 mt-2 w-full min-w-0">
+        <h2 lang="de" className="text-2xl lg:text-[1.65rem] leading-tight font-bold text-gray-900 break-words hyphens-auto max-w-full">
           🍯 {title}
         </h2>
 
